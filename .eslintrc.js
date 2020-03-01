@@ -20,5 +20,15 @@ module.exports = {
   ],
   // add your custom rules here
   rules: {
+    'no-console': 'off',
+    'space-before-function-paren': ['error', 'never'],
+    'vue/html-self-closing': [
+      'error',
+      {
+        html: {
+          void: 'always'
+        }
+      }
+    ]
   }
 }
